@@ -11,7 +11,11 @@ type Post struct {
 	CreateDate  time.Time `json:"create_date"`
 	UpdateDate  time.Time `json:"update_date"`
 	IsActive    bool      `json:"is_active"`
-	Tag         string    `json:"tag"`
+	Tag         Tag       `json:"tag"`
+}
+
+type Tag struct {
+	Name string `json:"tag"`
 }
 
 func AddPost() {
