@@ -1,0 +1,5 @@
+package goapiblog
+
+func main() {
+
+}
