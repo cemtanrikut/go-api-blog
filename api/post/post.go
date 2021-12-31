@@ -13,3 +13,23 @@ type Post struct {
 	IsActive    bool      `json:"is_active"`
 	Tag         string    `json:"tag"`
 }
+
+func AddPost() {
+
+}
+
+func GetPost() {
+
+}
+
+func GetPosts() {
+
+}
+
+func UpdatePost() {
+
+}
+
+func DeletePost() {
+
+}
