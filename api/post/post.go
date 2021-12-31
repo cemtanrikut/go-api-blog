@@ -22,7 +22,11 @@ func AddPost() {
 
 }
 
-func GetPost() {
+func GetPost(Id int) {
+
+}
+
+func GetPostsUnderTag(tagName Tag) {
 
 }
 
